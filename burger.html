@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container_wrapper {
+        box-shadow: 10px 4px 2px gray;
+        border-radius: 4px;
+        width: 200px;
+        background-color: white;
+      }
+      img {
+        width: 100%;
+        aspect-ratio: 1;
+      }
+      .content {
+        padding: 14px 20px;
+        text-align: center;
+      }
+
+      h4 {
+        font-size: 20px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 12px;
+        margin-top: 10px;
+      }
+      button {
+        border-radius: 3px;
+        padding: 6px;
+        margin: 10px;
+        background-color: orangered;
+        color: white;
+        box-shadow: 6px 4px 2px 3px gray;
+        width: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      const container_wrapper = document.createElement("section");
+      container_wrapper.setAttribute("class", "container_wrapper");
+
+      const image = document.createElement("img");
+      image.setAttribute("src", "./assets/images/cartoon-burger-shop-edit.jpg");
+
+      const content = document.createElement("section");
+      content.setAttribute("class", "content");
+
+      const heading = document.createElement("heading");
+      heading.textContent = "BURGER SHOP";
+
+      const items = document.createElement("p");
+      items.textContent = "items :Burger,Momos,Chicken";
+
+      const price = document.createElement("p");
+      price.textContent = "price :$ 200";
+
+      const place = document.createElement("p");
+      place.setAttribute = "place : Chrompet";
+
+      const button = document.createElement("button");
+      button.textContent = "Order Now";
+
+      content.append(heading);
+      content.append(items);
+      content.append(price);
+      content.append(place);
+      content.append(button);
+
+      container_wrapper.append(image);
+      container_wrapper.append(content);
+
+      document.body.append(container_wrapper);
+    </script>
+  </body>
+</html>

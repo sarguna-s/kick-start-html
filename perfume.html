@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      body {
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        background-color: white;
+        width: 50vw;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border-radius: 4px;
+      }
+      .content-wrapper {
+        padding: 20px;
+      }
+      .perfume {
+        height: 350px;
+        width: 100%;
+      }
+
+      .subtitle {
+        letter-spacing: 4px;
+      }
+      .title {
+        font-weight: 900;
+        font-size: 32px;
+        padding-top: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <img src="./assets/images/perfum-image.jpg" alt="scent" class="perfume" />
+
+      <section class="content-wrapper">
+        <label class="subtitle">PERFUME</label>
+        <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
+      </section>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+    }
+    body {
+      background-color: blueviolet;
+    }
+    .user {
+      margin: 15vh 40vw;
+      background-color: white;
+      width: 20vw;
+      height: 60vh;
+      border-radius: 2px;
+      padding: 20px;
+      justify-content: center;
+    }
+
+    .pass {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding: 5px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      color: gray;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    input {
+      margin: 6px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: ipx solid grey;
+    }
+
+    input:focus {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 1px solid grey;
+    }
+
+    .forgot {
+      margin-top: 16px;
+      text-align: right;
+    }
+
+    .signup {
+      margin-top: 28px;
+      font-size: 10px;
+    }
+    .sign {
+      margin-top: 60px;
+      text-align: center;
+      font-size: 10px;
+    }
+    .link {
+      margin-top: 15px;
+      text-align: center;
+      font-weight: lighter;
+      color: black;
+      font-size: 10px;
+    }
+
+    button {
+      display: block;
+      margin-top: 30px;
+      width: 100%;
+      border-radius: 12px;
+      background-color: aquamarine;
+      color: white;
+    }
+  </style>
+  <body>
+    <section class="user">
+      <h2>login</h2>
+      <section class="pass">
+        <label for="Username"> Username: </label>
+        <input
+          type="text"
+          id="Username"
+          name="Username"
+          placeholder="Type your Username"
+        />
+      </section>
+      <section class="pass">
+        <label for="Password"> Password:</label>
+        <input
+          type="Password"
+          id="Password"
+          name="Password"
+          placeholder="Type your Password"
+        />
+      </section>
+      <p class="forgot">Forget password?</p>
+      <button>login</button>
+      <p class="signup">Or sign up using</p>
+      <p class="sign">Or Sign up using</p>
+      <p class="link">SIGN UP</p>
+    </section>
+  </body>
+</html>

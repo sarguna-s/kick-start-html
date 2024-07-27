@@ -1,0 +1,38 @@
+.container {
+    box-shadow: 12px 4px 3px grey;
+    border-radius: 4px;
+    background-color: white;
+    width: 200px;
+    
+    
+  }
+
+  img {
+    width: 100%;
+    aspect-ratio: 1;
+    
+  }
+
+  .wrapper {
+    padding: 16px 24px;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+
+  button {
+    width: 100%;
+    padding: 6px;
+    margin: 4px;
+    background-color: goldenrod;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 4px 4px 3px 3px gray;
+  }

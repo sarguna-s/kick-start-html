@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: aqua;
+      }
+      .container {
+        display: flex;
+        background-color: white;
+        width: 40%;
+        padding: 10px;
+      }
+      .content-wrapper {
+        display: flex;
+
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+      }
+      .star {
+        width: 10px;
+        height: 10px;
+      }
+      .offer {
+        color: orangered;
+      }
+      .offer-wrapper {
+        width: fit-content;
+        gap: 2px;
+        border: 1px solid orangered;
+        border-radius: 10px;
+        padding: 4px;
+      }
+      .veggie {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 5px;
+        padding: 6px;
+      }
+
+      .delight {
+        color: gray;
+        font-weight: 400;
+      }
+      .bundle {
+        color: gray;
+      }
+
+      .img-dish {
+        width: 120px;
+        height: 120px;
+        border-radius: 16px;
+      }
+      .rupee {
+        color: black;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <section class="content-wrapper">
+        <section class="offer-wrapper">
+          <img src="./assets/icons/star-icon.png" alt="star" class="star" />
+          <label class="offer">20% OFF USE CANNY CRAVE</label>
+        </section>
+        <h3>Veggie Delight Bundle</h3>
+        <p class="delight">Serves-10</p>
+        <p class="bundle">
+          Each box includes your choices of sandwich, side and sauce.Be sure to
+          purchase utens.... More
+        </p>
+        <p class="rupee">₹14000</p>
+      </section>
+      <section>
+        <img
+          src="./assets/images/briyani-image.jpg"
+          alt="biryani"
+          class="img-dish"
+        />
+      </section>
+    </section>
+  </body>
+</html>
